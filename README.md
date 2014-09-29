@@ -1,6 +1,8 @@
 replace-empty-objects
 ---------------------
 
+[![Build Status](https://travis-ci.org/wankdanker/node-replace-empty-objects.svg)](https://travis-ci.org/wankdanker/node-replace-empty-objects)
+
 Recursively replace empty objects with null
 
 install
