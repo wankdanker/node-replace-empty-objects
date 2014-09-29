@@ -1,0 +1,23 @@
+{
+  "name": "replace-empty-objects",
+  "version": "1.0.0",
+  "description": "Recursively replace empty objects with null",
+  "main": "index.js",
+  "dependencies": {
+    "is-object-empty": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wankdanker/node-replace-empty-objects.git"
+  },
+  "author": "Dan VerWeire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wankdanker/node-replace-empty-objects/issues"
+  },
+  "homepage": "https://github.com/wankdanker/node-replace-empty-objects"
+}
