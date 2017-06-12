@@ -1,6 +1,6 @@
 {
   "name": "replace-empty-objects",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Recursively replace empty objects with null",
   "main": "index.js",
   "dependencies": {
