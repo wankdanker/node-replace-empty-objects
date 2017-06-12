@@ -1,6 +1,8 @@
 var replaceEmpty = require('./')
 	assert = require('assert');
 
+var dt = new Date();
+
 var obj = {
 	a : ''
 	, b : {}
@@ -8,6 +10,8 @@ var obj = {
 		ca : ''
 		, cb : {}
 	}
+	, someDate : dt
+
 };
 
 assert.deepEqual(replaceEmpty(obj), {
@@ -17,5 +21,6 @@ assert.deepEqual(replaceEmpty(obj), {
 		ca : ''
 		, cb : null
 	}
+	, someDate : dt
 });
 

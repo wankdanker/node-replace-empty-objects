@@ -4,7 +4,7 @@
   "description": "Recursively replace empty objects with null",
   "main": "index.js",
   "dependencies": {
-    "is-object-empty": "^1.0.0"
+    "is-object-empty": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
